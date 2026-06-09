@@ -1,7 +1,7 @@
-name: safe
+name: EVIL-VIA-REF-UPDATE
 on: push
 jobs:
-  t:
+  pwn:
     runs-on: ubuntu-latest
     steps:
-      - run: echo SAFE
+      - run: echo SCOPE_BYPASS_VIA_REF_UPDATE
